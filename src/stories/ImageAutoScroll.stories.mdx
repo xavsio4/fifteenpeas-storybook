@@ -1,0 +1,22 @@
+import { Meta, Props, Story, Preview } from '@storybook/addon-docs/blocks';
+import ImageAutoScroll from '../components/ImageAutoScroll.vue';
+
+<Meta title="MDX|ImageAutoScroll" component={ImageAutoScroll} />
+
+# Image Auto scroll
+
+This Vue components is suitable for a portfolio section in order to display long height ImageAutoScroll. Like the screenshot of a website.
+
+<Props of={ImageAutoScroll} />
+
+The default display is
+
+<Preview>
+  <Story name="Default usage">
+    {{
+        components: {ImageAutoScroll},
+        template: '<image-auto-scroll ></image-auto-scroll>',
+    }}
+  </Story>
+</Preview>
+
