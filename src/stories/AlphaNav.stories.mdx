@@ -1,0 +1,21 @@
+import { Meta, Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import AlphaNav from "../components/AlphaNav.vue";
+
+<Meta title="AlphaNav" component={AlphaNav} />
+
+# Code Display
+
+This Vue components adds a button back to top when scrolling.
+
+<Props of={AlphaNav} />
+
+The default display is
+
+<Preview>
+  <Story name="Default usage">
+    {{
+      components: { AlphaNav },
+      template: "<alpha-nav direction="vertical" :showClear="true" clearLinkText="reset" @clear="clear" @selected="selectedAlpha"></alpha-nav>",
+    }}
+  </Story>
+</Preview>

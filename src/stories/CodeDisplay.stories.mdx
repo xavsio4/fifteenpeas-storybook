@@ -1,0 +1,21 @@
+import { Meta, Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import CodeDisplay from "../components/CodeDisplay.vue";
+
+<Meta title="CodeDisplay" component={CodeDisplay} />
+
+# Code Display
+
+This Vue components uses props to display code on a page.
+
+<Props of={CodeDisplay} />
+
+The default display is
+
+<Preview>
+  <Story name="Default usage">
+    {{
+      components: { CodeDisplay },
+      template: "<code-display code="your code" caption="your caption" ></code-display>",
+    }}
+  </Story>
+</Preview>

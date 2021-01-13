@@ -1,0 +1,21 @@
+import { Meta, Props, Story, Preview } from "@storybook/addon-docs/blocks";
+import CodeDisplay from "../components/BackToTop.vue";
+
+<Meta title="CodeDisplay" component={BackToTop} />
+
+# Code Display
+
+This Vue components adds a button back to top when scrolling.
+
+<Props of={BackToTop} />
+
+The default display is
+
+<Preview>
+  <Story name="Default usage">
+    {{
+      components: { BackToTop },
+      template: "<back-to-top code="your code" caption="your caption" ></back-to-top>",
+    }}
+  </Story>
+</Preview>

@@ -22,6 +22,11 @@ module.exports = {
       }
     },
     '@storybook/addon-knobs',
+<<<<<<< HEAD
     '@storybook/addon-links'
+=======
+    '@storybook/addon-links',
+    '@storybook/addon-essentials'
+>>>>>>> 20176f8... - added components
   ]
 }
