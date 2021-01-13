@@ -17,6 +17,11 @@ export const standardUse = () => ({
   template: '<alpha-nav direction="vertical" :showClear="true" clearLinkText="reset" @clear="clear" @selected="selectedAlpha"></alpha-nav>',
 })
 
+export const withHorizontal = () => ({
+  components: { AlphaNav },
+  template: '<alpha-nav direction="horizontal" :showClear="true" clearLinkText="reset" @clear="clear" @selected="selectedAlpha"></alpha-nav>',
+})
+
 export const withText = () => ({
   components: { AlphaNav },
   template: '<alpha-nav direction="vertical" :showClear="true" clearLinkText="reset" @clear="clear" @selected="selectedAlpha"></alpha-nav>',
